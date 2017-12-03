@@ -1,0 +1,347 @@
+body {
+    font-family: Lato;
+}
+#container{
+    width: 800px;
+    height: 600px;
+    border: 1px solid red;
+    margin-right: 10px;
+    float: left;
+}
+/*.container3 h3 {background:#0094ff;color:white;padding:10px;}*/
+.container3 h3 {color:#333;padding:10px;align-self: center}
+.container3 {float: left}
+#container2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-right: 10px;
+    float: left;
+}
+/*#mapHeader {*/
+    /*text-align: left ;*/
+/*}*/
+#BarChartHeader {
+    text-align: center;
+}
+
+
+#awChartHeader {
+    text-align: center;
+}
+.side_panel {
+
+    float: left;
+    border: 3px solid black;
+}
+.locationchart {
+    float: left;
+    margin-right: 100px;
+}
+.chart rect {
+    fill: steelblue;
+}
+
+rect-bars {
+    fill: lightgray;
+    stroke: darkgray;
+    stroke-width: 2px
+}
+
+.chart text {
+    fill: white;
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+h1 {
+    font-family: "Arvo";
+    font-size:35px;
+    color: #464646;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.info{
+    margin-left: 20px;
+}
+
+.chart div {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+
+}
+
+.fullView{
+    display: inline-block;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table{
+    table-layout: fixed;
+    width: 100%;height: 360px;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 2px;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+tbody td {
+    text-align: center;
+}
+caption {
+
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+
+    color: #666;
+
+    letter-spacing: 1px;
+}
+
+#season-selector{width:300px; height:30px; margin-left:800px}
+/*dropdown css*/
+#season-selector{
+     font-size: 13px;
+     padding: 10px 8px 10px 14px;
+     background: #fff;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     overflow: hidden;
+     position: relative;
+ }
+
+#outerWrap{width:1400px;float: left;}
+#tableStats{width:600px; height:500px;float: left;}
+#tableChartsDiv
+    {width:600px;
+    height:400px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #d9d9d9;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;}
+
+#row_no3:hover
+{
+    background-color: lightsteelblue;
+}
+
+#row_no4:hover
+{
+    background-color: lightsteelblue;
+}
+
+#row_no5:hover
+{
+    background-color: lightsteelblue;
+}
+
+#row_no6:hover
+{
+    background-color: lightsteelblue;
+}
+.countries {
+    stroke: #f7f7f7;
+    fill: #d9d9d9;
+}
+
+.legend-element {
+    width: 15px;
+    height: 15px;
+}
+
+.team {
+    fill: #fee8c8;
+}
+
+.team-html {
+    background-color: #fee8c8;
+}
+.team_label{
+}
+li {
+    margin: 0;
+    padding: 0.2em;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+ul {
+    margin: 0;
+    padding: 0.2em;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.host {
+    fill: #2b8cbe;
+}
+
+.gold {
+    fill: #FFD700;
+    opacity: .8;
+    stroke: #252525;
+    stroke-width: 2px;
+}
+
+.silver {
+    fill: #d9d9d9;
+    opacity: .8;
+    stroke: #252525;
+}
+
+.selected {
+    fill: #d20a11;
+}
+
+/*Map grid style*/
+.grat {
+    stroke: grey;
+    stroke-width: 1px;
+    opacity: .2;
+}
+
+
+
+h3 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+header {
+    padding: 0.5em;
+    clear: left;
+    text-align: left;
+    height: 100px;
+}
+
+#logo {
+    float: right;
+    height: 100px;
+}
+
+
+#plot-selector {
+    float: right;
+    margin-bottom: 5px;
+
+}
+
+.view {
+    padding: 1.0em;
+
+}
+
+
+#details {
+    padding: 0.5em;
+    float: left;
+
+    border-width: 1px;
+    border-color: #d9d9d9;
+    border-right-style: solid;
+}
+
+#bar-chart {
+    width: 500px;
+    margin-right: 20px;
+    float: left;
+
+}
+
+#map-view {
+    margin-left: 750px;
+    width: 910px;
+    border-width: 2px;
+    border-color: #d9d9d9;
+    border-left-style: solid;
+    float:left;
+}
+.map-view {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #d9d9d9;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    float:left;
+}
+
+#links > line {
+    stroke: rgb(216, 216, 216);
+}
+
+#xAxis path,
+#yAxis path {
+    fill: none;
+    stroke: black;
+}
+#yAxis text {
+    font-size: 14px;
+}
+
+/*path, line {*/
+    /*fill: none;*/
+    /*stroke: black;*/
+/*}*/
+/*heatMap*/
+rect.bordered {
+    stroke: #E6E6E6;
+    stroke-width:2px;
+}
+
+text.mono {
+    font-size: 9pt;
+    font-family: Consolas, courier;
+    fill: #aaa;
+}
+
+text.axis-workweek {
+    fill: #000;
+}
+
+text.axis-worktime {
+    fill: #000;
+}
+.tick{
+    font-size: 8pt;
+    font-weight: normal;
+    color: #666;
+    letter-spacing: 2px;
+}
+#bar-chartHB {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #d9d9d9;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    float:left;
+}

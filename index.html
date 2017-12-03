@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--<script src="https://d3js.org/d3.v4.js"></script>-->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type='application/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+</head>
+
+<body>
+
+<h1 align="center">IPL Cricket Data Visualization</h1>
+<p class="info" align="center">Name: Abhishek Penujuri Nataraj; E-Mail: u1080870@utah.edu; UID: u1080870</p>
+<p class="info" align="center">Name: Zeeshan Hakim; E-Mail: u1143824@utah.edu; UID: Your u1143824</p>
+
+<div id="awardstats-chart" class="view">
+    <!--creating a drop down selector for awardstats-->
+    <div id="season-selector">
+        <label>Season:</label>
+        <select id="season-select" onchange="chooseSeason()">
+            <option selected value="1">Season 1</option>
+            <option value="2">Season 2</option>
+            <option value="3">Season 3</option>
+            <option value="4">Season 4</option>
+            <option value="5">Season 5</option>
+            <option value="6">Season 6</option>
+            <option value="7">Season 7</option>
+            <option value="8">Season 8</option>
+            <option value="9">Season 9</option>
+        </select>
+    </div>
+
+    <div id="outerWrap">
+    <!--creating a table for awardStats-->
+    <div id="tableStats">
+        <table id="newTable">
+            <!--<caption>Award Staticstics of each season</caption>-->
+        </table>
+    </div>
+    <div>
+        <h3 id="awChartHeader"> Bar Chart of number of Win,Loss and Tie</h3>
+        <div id="tableChartsDiv">
+    </div>
+
+    </div>
+
+    </div>
+
+
+</div>
+
+<!--<div id="matchlocation-chart" class="view"></div>-->
+<div class="container">
+    <div id="details" class="side_panel">
+        <h3 id="CityName">City Name</h3>
+        <h3>Matches Played</h3>
+        <span id="Team1_2"></span>
+    </div>
+
+    <div id="container4">
+        <h3 id="mapHeader"> Location Map of IPL Season Matches </h3>
+        <div id="chart_div" class = "map-view" style="width: 900px; height: 600px;"></div>
+    </div>
+
+    <div class="container3">
+        <h3 id="BarChartHeader"> Bar Chart Showing each Country's Player Participation for different seasons</h3>
+        <div id="bar-chartHB" style="width: 900px; height: 410px;"></div>
+    </div>
+</div>
+
+
+<script type="application/javascript" src="js/script.js"></script>
+<script type="application/javascript" src="js/awardStats.js"></script>
+<script type="application/javascript" src="js/matchLocation.js"></script>
+<script type="application/javascript" src="js/playerChart.js"></script>
+
+
+</body>
+</html>
